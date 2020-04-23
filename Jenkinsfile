@@ -10,6 +10,7 @@ pipeline {
                '''
         sh '''echo "google.com"
             echo "the answer is:" +5+5
+            tidy -q -e *.html
         '''
       }
     }
