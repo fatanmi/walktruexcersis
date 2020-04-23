@@ -8,7 +8,9 @@ pipeline {
                   echo "Multiline shell steps works too"
                   ls -lah
                '''
-        sh 'echo "google.com"'
+        sh '''echo "google.com"
+            echo "the answer is:" +5+5
+        '''
       }
     }
   }
