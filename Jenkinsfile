@@ -8,7 +8,7 @@ pipeline {
                   echo "Multiline shell steps works too"
                   ls -lah
                '''
-        sh ' ping google.com'
+        sh 'echo "google.com"'
       }
     }
   }
